@@ -1,0 +1,27 @@
+﻿body {
+}
+.sizeChanged {
+    display: grid;
+    grid-gap: 200px;
+    grid-template-columns: repeat(auto-fit, minmax(800px,1fr));
+    grid-template-rows: repeat(2,100px);
+    margin-left: 50px;
+}
+
+min-width: 1000px {
+    div .sizeChanged
+
+{
+    font-size: 20px;
+}
+
+}
+
+min-width: 1500px {
+    div .sizeChanged
+
+{
+    font-size: 30px;
+}
+}
+
